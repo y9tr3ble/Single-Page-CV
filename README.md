@@ -1,5 +1,3 @@
-# Single-Page-CV
+# Frontend Developer | Roadmap.sh
 
-A single page with only HTML
-
-https://roadmap.sh/projects/single-page-cv
+- [Single Page CV](https://roadmap.sh/projects/single-page-cv/)
