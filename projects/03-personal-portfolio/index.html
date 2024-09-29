@@ -11,25 +11,33 @@
 		<meta property="og:title" content="Basic HTML Website of Tr3ble" />
 		<meta property="og:description" content="Basic HTML Website of Tr3ble" />
 		<meta property="og:type" content="website" />
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
 	</head>
 	<body>
 		<header class="header">
-			<p>Tr3ble</p>
+			<p class="logo">Tr3ble</p>
 			<nav class="nav">
-				<a href="index.html">Home</a>
-				<a href="projects.html">Projects</a>
-				<a href="articles.html">Articles</a>
-				<a href="contact.html">Contact</a>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<span>/</span>
+					<li><a href="projects.html">Projects</a></li>
+					<span>/</span>
+					<li><a href="articles.html">Articles</a></li>
+					<span>/</span>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
 			</nav>
 		</header>
 		<main class="main">
 			<section class="dev-section">
 				<h1>Frontend Developer</h1>
-				<h3>html only, with proper layout, no styling</h3>
+				<section>
+					<h3>html only, with proper layout, no styling</h3>
+				</section>
 			</section>
 
-			<section class="projects-section">
-				<section>
+			<section class="info">
+				<section class="projects-section">
 					<h2>Projects</h2>
 					<ul>
 						<li>

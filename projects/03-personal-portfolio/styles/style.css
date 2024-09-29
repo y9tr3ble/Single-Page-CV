@@ -1,0 +1,84 @@
+body {
+   margin: 0 auto;
+   padding: 0 auto;
+}
+
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo {
+   padding: 20px;
+}
+
+.nav {
+   display: flex;
+   padding: 20px;
+}
+
+.nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+.nav li {
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.nav a {
+   color: black;
+   text-decoration: none;
+}
+
+.nav a:hover {
+   text-decoration: underline;
+}
+
+.dev-section {
+   max-width: fit-content;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+
+.dev-section h1 {
+   margin-bottom: 10px;
+   font-size: 40px;
+}
+
+.dev-section h3 {
+   font-size: 15px;
+   color: grey
+}
+
+.info {
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: space-between;
+}
+
+.projects-section {
+   padding-left: 20px;
+}
+
+.education-section {
+   padding-right: 20px;
+}
+
+li {
+   list-style: none;
+}
+
+.footer {
+   position: fixed;
+   left: 50%;
+   bottom: 20px;
+   transform: translate(-50%, -50%);
+   margin: 0 auto;
+ }
