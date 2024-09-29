@@ -87,9 +87,9 @@ body {
 		align-items: flex-start;
 	}
 
-	.nav {
-		/* TODO: Make navigation */
-		display: none;
+	.nav ul {
+		flex-direction: column;
+	/*	temporary solution */
 	}
 
 	.projects-section,
