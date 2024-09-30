@@ -8,4 +8,19 @@ div {
 
 h3 {
    color: gray;
+   font-size: 15px;
+}
+
+.changelog {
+   text-align: center;
+}
+
+ul {
+   display: inline-block;
+   text-align: left;
+   list-style: none;
+}
+
+span {
+   color: gray;
 }
